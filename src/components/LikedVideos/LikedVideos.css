@@ -1,0 +1,15 @@
+.LikedVideos {
+  width: 80%;
+  background: #f9f9f9;
+  padding: 40px 20px 0 20px;
+  min-height: 100%;
+}
+
+.LikedVideos > h2 {
+  margin: 0 0 20px 5px;
+}
+
+.LikedVideos__videos {
+  display: flex;
+  flex-flow: row wrap;
+}

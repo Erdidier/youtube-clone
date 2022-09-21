@@ -1,0 +1,24 @@
+.sidebar {
+  width: 20%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+  height: 100%;
+
+  overflow: auto;
+}
+
+.sidebar > hr {
+  height: 1px;
+  border: 0;
+  background: lightgray;
+  margin: 10px 0;
+}
+
+.sidebar > h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: gray;
+}

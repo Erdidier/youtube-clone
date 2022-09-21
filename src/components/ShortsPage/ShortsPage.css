@@ -1,0 +1,15 @@
+.shortsPage {
+  width: 80%;
+  background: #f9f9f9;
+  padding-left: 30rem;
+  min-height: 100%;
+}
+
+.shortsPage > h2 {
+  margin: 0 0 20px 5px;
+}
+
+.shortsPage__videos {
+  display: flex;
+  flex-flow: row wrap;
+}

@@ -1,0 +1,36 @@
+.playlistCard {
+  width: 270px;
+  margin-bottom: 40px;
+  margin-left: 3px;
+}
+
+.playlistCard__thumbnail {
+  width: 250px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.playlistCard__info {
+  display: flex;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+
+.playlistCard__text {
+  margin-left: 15px;
+}
+
+.playlistCard__text > h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.playlistCard__text > p {
+  font-size: 14px;
+  color: gray;
+}
+
+.playlistCard__avatar {
+  height: 40px !important;
+  width: 40px !important;
+}

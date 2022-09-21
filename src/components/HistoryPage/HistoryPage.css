@@ -1,0 +1,61 @@
+.historyPage {
+  display: grid;
+  grid-template-columns: 50% auto;
+  width: 80%;
+  grid-template-rows: 100%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background: #f9f9f9;
+  padding: 40px 20px 0 5rem;
+}
+
+.historyPage__videos {
+  display: flex;
+  flex-flow: row wrap;
+  /* grid-area: 1 / 1 / 2 / 2; */
+  padding-right: 5rem;
+}
+
+.historyPage__videos > h2 {
+  margin: 0 0 20px 5px;
+}
+
+.historyPage__panel {
+  /* grid-area: 1 / 2 / 2 / 3; */
+  background-color: #c7c3c3;
+  padding: 0 28px;
+}
+
+.historyPage__panel > h2 {
+  margin: 0 0 20px 5px;
+}
+
+.historyPage__panel__watch {
+  padding: 16px;
+}
+
+.historyPage__panel__watch > label {
+  font-size: 1.2rem;
+}
+
+.historyPage__panel__watch > input {
+  margin-left: 80%;
+  /* border: 0px; */
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.historyPage__panel__community {
+  padding: 16px;
+}
+
+.historyPage__panel__community > label {
+  font-size: 1.2rem;
+}
+
+.historyPage__panel__community > input {
+  margin-left: 68.4%;
+  /* border: 0px; */
+  width: 1.2rem;
+  height: 1.2rem;
+}

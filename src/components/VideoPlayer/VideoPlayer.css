@@ -1,0 +1,68 @@
+.videoPlayer {
+  width: 731px;
+  margin-bottom: 40px;
+}
+
+.videoPlayer__video {
+  width: 731px;
+  height: 411px;
+  display: inline-block;
+}
+
+.videoPlayer_video:hover {
+  cursor: pointer;
+}
+
+.videoPlayer__info {
+  width: 731px;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+
+.videoPlayer__info > h4 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.videoPlayer__info > p {
+  font-size: 14px;
+  color: gray;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.videoPlayer__info_user {
+  width: 731px;
+  margin-top: 10px;
+}
+
+.videoPlayer__info_user > p {
+  font-size: 14px;
+  color: black;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.videoPlayer__info__user > Button {
+  font-size: 12px;
+  color: gray;
+}
+
+.videoPlayer__comment {
+  width: 731px;
+  margin-top: 10px;
+}
+
+.videoPlayer__comment > p {
+  font-size: 13px;
+  font-weight: 500;
+  color: black;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.videoPlayer__avatar {
+  height: 40px !important;
+  width: 40px !important;
+  display: inline-flex !important;
+}

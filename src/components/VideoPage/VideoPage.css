@@ -1,0 +1,28 @@
+.videoPage {
+  display: grid;
+  grid-template-columns: 62% auto;
+  grid-template-rows: 100%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 80%;
+  background: #f9f9f9;
+  padding: 40px 20px 0 75px;
+  /* min-height: 100%; */
+  /* column-count: 2; */
+  /* display: flex;
+    flex-direction: column; */
+}
+
+.videoPage > h2 {
+  margin: 0 0 20px 5px;
+}
+
+.videoPage__videos {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.videoPage__related {
+  display: inline-block;
+  /* flex-flow: row wrap; */
+}

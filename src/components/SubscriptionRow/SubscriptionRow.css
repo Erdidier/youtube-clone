@@ -1,0 +1,44 @@
+.subscriptionRow {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.subscriptionRow__icon {
+  height: 25px !important;
+  width: 25px !important;
+  /* font-size: large !important; */
+}
+
+.subscriptionRow__title {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.subscriptionRow:hover {
+  background: lightgray;
+  transition: all 0.3s ease-in-out;
+}
+
+.subscriptionRow:hover > .subscriptionRow__icon {
+  color: red;
+}
+
+.subscriptionRow:hover > .subscriptionRow__title {
+  font-weight: bold;
+}
+
+.subscriptionRow.selected {
+  background: lightgray;
+}
+
+.subscriptionRow.selected > .subscriptionRow__icon {
+  color: red;
+}
+
+.subscriptionRow.selected > .subscriptionRow__title {
+  font-weight: bold;
+}
